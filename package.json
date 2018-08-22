@@ -1,0 +1,17 @@
+{
+  "name": "my-cuke-project",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js features/simple_math.feature"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^4.0.0",
+    "node-gyp": "^3.6.2",
+    "protractor": "^5.4.0",
+    "save": "^2.3.2",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "sleep": "^5.1.1",
+    "xml2json": "^0.11.0"
+  }
+}
